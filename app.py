@@ -1,8 +1,6 @@
 
 # import nest_asyncio
 from playwright.async_api import async_playwright
-from pyngrok import ngrok
-import json
 import time
 from bs4 import BeautifulSoup as bs
 from fastapi import FastAPI
