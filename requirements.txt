@@ -1,4 +1,4 @@
-playwright==1.26.0
+playwright==1.27.0
 fastapi==0.85.0
 beautifulsoup4==4.11.1
 uvicorn==0.18.3
