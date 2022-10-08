@@ -1,5 +1,5 @@
 
-import nest_asyncio
+# import nest_asyncio
 from playwright.async_api import async_playwright
 from pyngrok import ngrok
 import json
