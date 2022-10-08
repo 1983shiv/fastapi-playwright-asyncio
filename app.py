@@ -2,6 +2,7 @@
 # import nest_asyncio
 from playwright.async_api import async_playwright
 import time
+import json
 from bs4 import BeautifulSoup as bs
 from fastapi import FastAPI
 import uvicorn
@@ -58,7 +59,7 @@ app = FastAPI()
 @app.get('/')
 async def root():
     # items = await scrap()
-    data = {"data": items, "Timestamp": time.time()}
+    data = {"data": "Hello Shiv", "Timestamp": time.time()}
     json_dump = await json.dumps(data)
     # print("running server...")
     return data
