@@ -60,9 +60,9 @@ app = FastAPI()
 async def root():
     # items = await scrap()
     data = {"data": "Hello Shiv", "Timestamp": time.time()}
-    json_dump = await json.dumps(data)
+    json_dump = json.dumps(data)
     # print("running server...")
-    return data
+    return json_dump
 
 
 # if __name__ == '__main__':
